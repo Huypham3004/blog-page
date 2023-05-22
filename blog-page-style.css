@@ -39,7 +39,7 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
 }
 
 h2 {
@@ -69,6 +69,7 @@ h6 {
   color: #FFF;
   text-transform: uppercase;
   font-family: "Outfit", sans-serif;
+  cursor: pointer;
 }
 
 .button-style-2 {
@@ -88,7 +89,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.row--footer {
+.footer {
   padding-bottom: 100px;
 }
 
@@ -373,14 +374,6 @@ h6 {
   border: 1px solid #E7E5EA;
   border-radius: 5px;
 }
-.post a {
-  text-decoration: none;
-  color: #7B88A8;
-  font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: 400;
-}
 
 .post__image {
   width: 100%;
@@ -393,10 +386,11 @@ h6 {
   padding: 25px 40px 43px 40px;
 }
 
-.detail-content__top {
+.content-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .author {
@@ -417,21 +411,17 @@ h6 {
   font-family: "Outfit", sans-serif;
 }
 
-.detail-content__title {
+.content-title {
+  text-decoration: none;
   font-size: 36px;
   font-weight: 500;
   letter-spacing: -1px;
   font-family: "Outfit", sans-serif;
   color: #2D3958;
-  margin-top: 30px;
 }
 
-.detail-content__description {
-  margin-top: 30px;
-}
-
-.detail-content__button {
-  margin-top: 40px;
+.content-description {
+  padding: 30px 0 40px 0;
 }
 
 .pagination {
@@ -448,6 +438,7 @@ h6 {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .pagination__item--active {
@@ -471,7 +462,7 @@ h6 {
   margin-bottom: 28px;
 }
 
-.search-box__input {
+.input-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -483,7 +474,7 @@ h6 {
   width: 100%;
 }
 
-.input-text {
+.input-box__text {
   outline: none;
   border: none;
   padding: 10px 0;
@@ -502,28 +493,18 @@ h6 {
   letter-spacing: -0.3px;
 }
 
-.select-box {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: #FFFFFF;
-  border: 1px solid #E7E5EA;
-  border-radius: 5px;
-  padding: 0 15px;
-  width: 100%;
-}
-
-.tags__tag-box {
+.tag-box {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-.tag-text {
+.tag-box__text {
   padding: 5px;
   border-radius: 5px;
   background-color: #4F77FF;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .content-box--bg {
